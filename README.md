@@ -6,4 +6,5 @@ Distflow Model + Graph Theory-based Distribution Reconfiguration +  Matpower/Pan
 
 Future work
 
-1.尽管IEEE-33节点电网的distflow模型求解结果和matpower等内点法求解器求解原始ACOPF结果一致，理论上branch flow的凸松弛是不够精确滴(即，将“=”松弛成“<=”)
+尽管IEEE-33节点电网的distflow模型求解结果和matpower等内点法求解器求解原始ACOPF结果一致，理论上branch flow的凸松弛是不够精确滴(即，将“=”松弛成“<=”)
+后续将通过顺序凸规划(sequence convex program,SCP)和差分凸化，将“=”松弛成“<=”和“>=”
